@@ -1,0 +1,34 @@
+---
+---
+
+body {
+	background-color: #222;
+}
+
+#centred {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+
+	img {
+		width: 50vw;
+	}
+
+	span {
+		color: #DDD;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #DDD;
+	}
+
+	#centred {
+		span {
+			color: #222;
+		}
+	}
+}

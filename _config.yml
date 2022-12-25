@@ -1,0 +1,7 @@
+title: CNC Pride Club
+description: >-
+  Website for the Pride Club of the College of New Caledonia in Prince George, British Columbia
+url: "https://cncpride.ca" # the base hostname & protocol for your site, e.g. http://example.com
+
+exclude:
+  - .git
